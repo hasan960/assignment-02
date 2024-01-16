@@ -381,6 +381,9 @@
 
 
 /* Destination Section  Style Start  */
+.destination_section{
+    width: 1366px;
+}
 
     .destination_text {
 
@@ -405,6 +408,8 @@
     }
 .grid_gallary {
     padding: 50px 0px;
+
+
 
 }
 /* Destination Section  Style Start  */
@@ -664,13 +669,14 @@ section#perfect_place_section {
 }
 .perfect_text_area {
     margin: 50px 0px;
-    padding: 50px 100px 50px 0px ;
+    padding: 50px 0px 50px 0px ;
 
 }
 .perfect_place_text {
     padding: 0px 0px 0px 0px;
     width: 50%;
     float: left;
+    margin-top: 75px;
 
 
 }
@@ -702,8 +708,9 @@ section#perfect_place_section {
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 800;
     line-height: 26px;
+
 }
 .perfect_place_btn {
     margin-top: 50px;
@@ -722,6 +729,10 @@ section#perfect_place_section {
     line-height: normal;
     text-decoration: none;
     border-radius: 8px;
+    transition: .4s;
+}
+.perfect_place_btn a:hover {
+    background-color: black;
 }
 .perfect_place_video {
     width: 50%;
@@ -734,6 +745,7 @@ section#perfect_place_section {
 section#newsletter_section {
     display: block;
     overflow: hidden;
+    margin: 80px 0px;
 }
     .newsletter_section{
         width: 1170px;
@@ -811,6 +823,7 @@ input.subs_btn:hover{
     float: left;
     margin: 0px 25px;
     position: relative;
+    border-radius: 16px;
 
 }
 
@@ -875,11 +888,12 @@ input.subs_btn:hover{
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
+    padding: 10px 0px;
 }
 .footer_icons {
     width: 200px;
     margin: auto;
-    padding: 20px 0px;
+    padding: 20px 0px 70px 0px;
 }
 .footer_icons i {
     font-size: 25px;
@@ -907,5 +921,7 @@ hr{
 .copyright_text{
     padding: 10px 0px;
     border-top: 1px solid #ddd;
+    width: 900px;
+    margin: auto;
 }
 /* Footer Section  Style End  */
