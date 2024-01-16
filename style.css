@@ -361,8 +361,12 @@
     line-height: normal;
     text-decoration: none;
     border-radius: 8px;
+    transition: .4s;
 
     
+}
+.popular_btn a:hover{
+    background-color: #000;
 }
 /* Popular Section  Style End  */
 
@@ -409,10 +413,20 @@
 .grid_gallary {
     padding: 50px 0px;
 
-
-
 }
-/* Destination Section  Style Start  */
+.grid_gallary {
+    padding: 50px 0px;
+    width: 1155px;
+    margin: auto;
+}
+.secound-column_items {
+    width: 1132px;
+    margin: auto;
+}
+/* Destination Section  Style End  */
+
+
+
 
 
 
@@ -731,6 +745,7 @@ section#perfect_place_section {
     border-radius: 8px;
     transition: .4s;
 }
+
 .perfect_place_btn a:hover {
     background-color: black;
 }
@@ -821,7 +836,7 @@ input.subs_btn:hover{
     background-repeat: no-repeat;
     background-size: cover;
     float: left;
-    margin: 0px 25px;
+    margin-left: 60px;
     position: relative;
     border-radius: 16px;
 
