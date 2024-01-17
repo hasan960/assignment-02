@@ -978,7 +978,12 @@ hr{
         display: block;
         margin-left: 100px;
         font-size: 30px;
+        transition: .3s;
+        cursor: pointer;
 
+    }
+    .humbarger_menu:hover {
+        color: #FF5400;
     }
     .destination_section{
         width: 100%;
@@ -1054,8 +1059,33 @@ hr{
         display: block;
         padding: 25px;
     }
+    .choose_us_text h1{
+        font-size: 20px;
+    }
+    .choose_us_text p{
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    .box1 h2,.box2 h2, .box3 h2, h2{
+        font-size: 20px;
+    }
+    .box1 p,.box2 p, .box3 p{
+        font-size: 14px;
+    }
+    .destination_text h1{
+        font-size: 20px;
+    }
+    .destination_text p{
+        font-size: 14px;
+    }
     .newsletter_left input{
         width: 90%;
+    }
+    .discount_section_text h1{
+        font-size: 22px;
+    }
+    .discount_section_text p{
+        font-size: 14px;
     }
     input.subs_btn {
         width: 100%;
@@ -1064,11 +1094,19 @@ hr{
         width: 92%;
         margin-top: 30px;
     }
+
     .footer{
         width: 100%;
     }
+    .footer p{
+        font-size: 14px;
+        padding: 0px 30px;
+    }
     .copyright_text{
         width: 100%;
+    }
+    .copyright_text{
+        font-size: 14px;
     }
 }
 /* Phone responsive  Style End  */
