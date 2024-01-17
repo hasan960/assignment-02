@@ -33,7 +33,7 @@
 
 /* Header Style Start  */
 .container{
-    width: 1366px;
+    width: 1170px;
     margin: 0px auto;
 }
 .header{
@@ -42,7 +42,7 @@
     align-items: center;
 }
 .logo{
-    width: 1200px;
+    width: 750px;
     display: flex;
 }
 .logo_icon{
@@ -98,7 +98,9 @@
 .active_home{
     color: #FF5400!important;
 }
-
+.humbarger_menu{
+    display: none;
+}
 /* Header Phone Style Start */
 @media screen and (max-width: 600px) {
     .container {
@@ -142,7 +144,7 @@
 
 .filter_section_overlay{
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
-    width: 1366px;
+    width: 1170px;
     height: 600px;
     border-radius: 16px;
     display: flex;
@@ -155,7 +157,7 @@
 }
 .travel_filter_section{
     background-image: url("images/filter_back_img.png");
-    width: 1366px;
+    width: 1170px;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -300,6 +302,10 @@
 
 
 /* Popular Section  Style Start  */
+section#popular_tour_section {
+    width: 1170px;
+    margin: 0 auto;
+}
 
 .popular_text_area {
     margin: 50px 0px;
@@ -309,9 +315,10 @@
 }
 .popular_left_text {
     padding: 0px 80px 0px 0px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    width: 50%;
+}
+.popular_right_image {
+    width: 50%;
 }
 .popular_left_text h1 {
     color: #131318;
@@ -329,11 +336,11 @@
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    padding-top: 20px;
+    padding-top: 10px;
 
 }
 .list_box {
-    padding: 0px 50px;
+    padding: 0px 30px;
 
 }
 .list_box ul li {
@@ -343,6 +350,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
+    margin-top: 5px;
 }
 .popular_btn {
     margin-top: 50px;
@@ -351,7 +359,7 @@
 }
 .popular_btn a {
     background-color: #FF5400;
-    padding: 15px 25px;
+    padding: 15px 40px;
     color: #FFF;
     text-align: center;
     font-family: Mulish;
@@ -375,18 +383,40 @@
 
 @media screen and (max-width: 600px) {
 
-    .popular_text_area{
-        display: flex;
-        flex-direction: column;
-    }
+.popular_text_area{
+    display: flex;
+    flex-direction: column;
+}
+.popular_text_area {
+    padding-left: 50px;
+}
 
 }
 /* Popular Phone  Style End  */
 
 
 /* Destination Section  Style Start  */
+
 .destination_section{
-    width: 1366px;
+    width: 1170px;
+}
+.destination_gallary{
+
+}
+.grid_gallary img{
+    padding: 6px;
+}
+.first-column_items{
+    display: flex;
+}
+.secound-column_items{
+    display: flex;
+}
+.third-column_items{
+    display: flex;
+}
+img.grid_img4 {
+    padding: 6px 12px;
 }
 
     .destination_text {
@@ -409,7 +439,9 @@
         font-style: normal;
         font-weight: 400;
         line-height: 26px;
+        padding: 10px;
     }
+/*
 .grid_gallary {
     padding: 50px 0px;
 
@@ -422,7 +454,7 @@
 .secound-column_items {
     width: 1132px;
     margin: auto;
-}
+} */
 /* Destination Section  Style End  */
 
 
@@ -558,6 +590,8 @@
     background-color: #fff;
     opacity: 0.9;
     padding: 40px;
+    border: 2px solid #FFF;
+    border-radius: 16px;
 
 }
 .meta_items{
@@ -648,8 +682,10 @@
 div#middle_left_booking_box {
     width: 580px;
     background: white;
-    padding: 50px;
+    padding: 40px;
     opacity: .9;
+    border: 2px solid #FFF;
+    border-radius: 16px;
 }
 .all_pack_btn{
     padding: 15px 0px;
@@ -678,62 +714,49 @@ div#middle_left_booking_box {
 
 
 /* perfect Place Section  Style Start  */
-section#perfect_place_section {
+.perfect_text_area{
     display: flex;
+    margin: 80px 0px;
 }
-.perfect_text_area {
-    margin: 50px 0px;
-    padding: 50px 0px 50px 0px ;
 
-}
 .perfect_place_text {
-    padding: 0px 0px 0px 0px;
-    width: 50%;
-    float: left;
-    margin-top: 75px;
-
-
+    padding: 10px 30px 5px 0px;
 }
 .perfect_place_text h1 {
     color: #131318;
-    text-align: left;
     font-family: Mulish;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
-    line-height: normal;
+    line-height: 60px;
 }
 .perfect_place_text p {
-    color: rgba(19, 19, 24, 0.70);
+    color: #5A5A5D;
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    padding-top: 20px;
-
+    padding: 10px 0px;
 }
 .perfect_list_box {
-    padding: 0px 20px;
-
+    padding: 0px 25px;
 }
 .perfect_list_box ul li {
-    color: rgba(19, 19, 24, 0.70);
+    color: #131318;
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 26px;
-
+    padding: 5px 0px;
 }
-.perfect_place_btn {
-    margin-top: 50px;
-
-
+.perfect_place_btn{
+    padding: 20px 0px;
 }
-.perfect_place_btn a {
-    background-color: #FF5400;
-    padding: 15px 25px;
+.perfect_place_btn a{
+    border-radius: 8px;
+    background: #FF5400;
     color: #FFF;
     text-align: center;
     font-family: Mulish;
@@ -741,18 +764,20 @@ section#perfect_place_section {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    padding: 15px 40px;
     text-decoration: none;
-    border-radius: 8px;
     transition: .4s;
+    cursor: pointer;
+    
+}
+.perfect_place_btn a:hover{
+    background-color: #000;
+}
+.video{
+    border-radius: 8px;
 }
 
-.perfect_place_btn a:hover {
-    background-color: black;
-}
-.perfect_place_video {
-    width: 50%;
-    float: left;
-}
+
 /* perfect Place Section  Style End  */
 
 
@@ -770,7 +795,7 @@ section#newsletter_section {
         margin: 40px 0px;
     }
     .newsletter_left {
-        width: 33%;
+        width: 440px;
         padding: 50px;
         border-radius: 16px;
         border: 1px solid #FF5400;
@@ -830,15 +855,15 @@ input.subs_btn:hover{
 }
 
 .newsletter_right{
-    background-image: url("images/newsletter_img.png");
-    width: 55%;
+    background-image: url(images/newsletter_img.png);
+    width: 610px;
     height: 450px;
     background-repeat: no-repeat;
     background-size: cover;
     float: left;
-    margin-left: 60px;
     position: relative;
     border-radius: 16px;
+    margin-left: 18px;
 
 }
 
@@ -884,7 +909,7 @@ input.subs_btn:hover{
 }
 
 .footer{
-    width: 1366px;
+    width: 1170px;
     margin: 0 auto;
     padding: 50px 0px
 }
@@ -934,9 +959,116 @@ hr{
     text-align: center;
 }
 .copyright_text{
-    padding: 10px 0px;
+    padding: 50px 10px 10px 10px;
     border-top: 1px solid #ddd;
     width: 900px;
     margin: auto;
 }
 /* Footer Section  Style End  */
+
+.choose_single_box{
+    display: flex;
+}
+
+
+/* Phone responsive  Style Start  */
+
+@media screen and (max-width: 600px) {
+    .humbarger_menu {
+        display: block;
+        margin-left: 100px;
+        font-size: 30px;
+
+    }
+    .destination_section{
+        width: 100%;
+        padding: 0px 30px;
+    }
+    .grid_gallary img{
+       width: 600px;
+       height: 300px;
+    }
+    .first-column_items{
+        flex-direction: column;
+    }
+    .secound-column_items{
+        flex-direction: column;
+    }
+    .third-column_items{
+        flex-direction: column;
+    }
+ 
+    .popular_left_text{
+        width: 600px;
+    }
+    .popular_right_image{
+        margin-top: 50px;
+    }
+    .choose_twin_box{
+        display: flex;
+        flex-direction: column;
+    }
+    .choose_single_box{
+        display: flex;
+        flex-direction: column;
+    }
+    .box3{
+        width: 85%;
+    }
+    section#perfect_place_section {
+        width: 600px;
+        display: flex;
+        flex-direction: row;
+    }
+    .perfect_text_area{
+        flex-direction: column;
+        padding: 5%;
+    }
+    .perfect_place_text{
+        padding-bottom: 20px;
+
+    }
+    .perfect_place_text h1{
+        color: #131318;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 30px;
+    }
+    .perfect_place_text p{
+        text-align: center;
+    }
+    .perfect_place_video{
+        
+    }
+    iframe.video {
+        width: 100%;
+    }
+    .newsletter_section{
+        width: 100%;
+    }
+    .newsletter_left{
+        width: 80%;
+        margin: 30px;
+        display: block;
+        padding: 25px;
+    }
+    .newsletter_left input{
+        width: 90%;
+    }
+    input.subs_btn {
+        width: 100%;
+    }
+    .newsletter_right{
+        width: 92%;
+        margin-top: 30px;
+    }
+    .footer{
+        width: 100%;
+    }
+    .copyright_text{
+        width: 100%;
+    }
+}
+/* Phone responsive  Style End  */
